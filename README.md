@@ -78,4 +78,9 @@ Here’s a step-by-step **action plan** tailored to your project:
 
 ---
 
-Want help generating the BMI column and visualizing some initial insights? I can walk you through that too!
+brian: 
+- change distribution of the variables 
+- hyperparameter tuning
+- predicting BMI
+- ensure there is a diversity of values (if they are clustered together, log transform to increase variance) 
+

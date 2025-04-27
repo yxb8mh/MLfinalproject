@@ -11,5 +11,8 @@ Our dataset, which we found in the class data folder, contains many of these ris
 a decision tree classifier for obesity level to see how well these lifestyle choices, as well as some biological traits, impact obesity level. 
 We also explore how much each risk factor contributes to obesity. 
 
-This exploration has potential application in the field of public health, 
+This exploration has potential application in the field of public health; it would be most beneficial to pour resources into prevention through the most important risk factors. 
+
+--------------------------------------------
+update with results after model eval 
 

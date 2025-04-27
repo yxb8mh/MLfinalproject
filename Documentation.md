@@ -18,6 +18,8 @@ Model Evaluation - what we did in lab:
 * confusion matrix
 
 
-
+Things to review: 
+- Greedy algorithm
+- Cross validation
 
 

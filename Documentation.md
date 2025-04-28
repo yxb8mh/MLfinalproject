@@ -18,6 +18,11 @@ Model Evaluation - what we did in lab:
 * confusion matrix
 
 
+Things to review: 
+- Greedy algorithm
+- Cross validation
+- Maybe: math behind it (Gini Coefficient, Entropy)
+   -  Algorithm uses the split that minimizes SSE
 
 
 

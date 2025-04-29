@@ -13,6 +13,5 @@ We also explore how much each risk factor contributes to obesity.
 
 This exploration has potential application in the field of public health; it would be most beneficial to pour resources into prevention through the most important risk factors. 
 
---------------------------------------------
-update with results after model eval 
+Result: Model is slightly skewed towards obesity and overweight.  
 

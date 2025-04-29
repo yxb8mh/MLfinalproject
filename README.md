@@ -1,4 +1,4 @@
-# Q: How do biological information and lifestyle choices impact a person's obesity level?
+# Q: How well can biological characteristics and lifestyle factors predict an individual’s weight category?
 
 ### Methodology: Classification Decision Tree with 4 levels: Insufficient Weight, Normal Weight, Overweight, Obese
 

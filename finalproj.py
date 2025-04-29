@@ -71,11 +71,11 @@ grid = GridSearchCV(
 # fit to train
 grid.fit(X_train, y_train)
 best_dt = grid.best_estimator_
-print("▶ Best max_depth:", best_dt.get_params()["max_depth"])
+print("Best max_depth:", best_dt.get_params()["max_depth"])
 
 # evaluate on tune
 y_tune_pred = best_dt.predict(X_tune)
-print("\n▶ Tune set classification report:\n")
+print("Tune set classification report:\n")
 print(classification_report(y_tune, y_tune_pred, target_names=le_y.classes_))
 
 # confusion matrix for tune
@@ -89,12 +89,10 @@ plt.show()
 
 # check feature importances
 importances = pd.Series(best_dt.feature_importances_, index=X_encoded.columns)
-print("\n▶ Feature importances:\n")
+print("Feature importances:\n")
 print(importances.sort_values(ascending=False).head(10))
 
 # evaluate on test set
 y_test_pred = best_dt.predict(X_test)
-print("\n▶ Test set classification report:\n")
+print("Test set classification report:\n")
 print(classification_report(y_test, y_test_pred, target_names=le_y.classes_))
-
-
